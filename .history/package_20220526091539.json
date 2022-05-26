@@ -1,0 +1,23 @@
+{
+  "name": "js-twitter-bot",
+  "version": "1.0.0",
+  "description": "Follow: https://twitter.com/retweetcyborg",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinolapo/retweetCyborg"
+  },
+  "author": "R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redianmarku/js-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/redianmarku/js-twitter-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}

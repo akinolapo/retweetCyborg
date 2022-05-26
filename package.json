@@ -1,23 +1,24 @@
 {
   "name": "js-twitter-bot",
   "version": "1.0.0",
-  "description": "Follow: https://twitter.com/rediandev",
+  "description": "Follow: https://twitter.com/retweetcyborg",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node src/bot.js"
+    "start": "node src/bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redianmarku/js-twitter-bot.git"
+    "url": "git+https://github.com/akinolapo/retweetCyborg"
   },
-  "author": "Redian Marku",
+  "author": "Akinola Peace ",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redianmarku/js-twitter-bot/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/redianmarku/js-twitter-bot#readme",
+  "homepage": "",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "twit": "^2.2.11"
   }
 }
