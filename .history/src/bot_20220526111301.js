@@ -7,7 +7,6 @@
 // var Twitter = new twit(config);
 
 require('dotenv').config()
-console.log(process.env)
 const {TwitterClient} = require('twitter-api-client')
 
 const Twitter = new TwitterClient({

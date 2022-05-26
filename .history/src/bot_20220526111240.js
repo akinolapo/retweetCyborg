@@ -7,10 +7,9 @@
 // var Twitter = new twit(config);
 
 require('dotenv').config()
-console.log(process.env)
 const {TwitterClient} = require('twitter-api-client')
 
-const Twitter = new TwitterClient({
+const twitterClient = new TwitterClient({
   apiKey: process.env.TWITTER_API_KEY,
   apiSecret: process.env.TWITTER_API_SECRET,
   accessToken: process.env.TWITTER_ACCESS_TOKEN,
