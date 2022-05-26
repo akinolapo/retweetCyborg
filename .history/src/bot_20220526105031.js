@@ -5,7 +5,12 @@ var
   config = require('./config', 'dotenv');
 
 var Twitter = new twit(config);
-
+var T = new Twit({
+  consumer_key: process.env.TWITTER_CONSUMER_KEY,
+  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
+  access_token: process.env.TWITTER_ACCESS_TOKEN,
+  access_token_secret: process.env.TWITTER_ACCESS_SECRET
+});
 // console.log(Twitter)
 // RETWEET BOT ==========================
 

@@ -6,7 +6,7 @@ var
 
 var Twitter = new twit(config);
 
-// console.log(Twitter)
+console.log
 // RETWEET BOT ==========================
 
 // find latest tweet according the query 'q' in params

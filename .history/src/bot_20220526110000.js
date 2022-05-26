@@ -1,8 +1,12 @@
+export const consumer_key = '5UuPH4liyQ9OZAxiRa6a7h1nv';
+export const consumer_secret = 'q69tLFX6QY6IqD073EXCnxu1ett28BjcHQrDnQP5bw8qZzfNNW';
+export const access_token = '1287921782545092610-1osstYxj6aRWH1zV8yoY7SKjDIkoF4';
+export const access_token_secret = '9Tw1otrr4TgQaJGqHscJtAsN7mFfzFn0CbEpf3PteZYXT';
 
 // Dependencies =========================
 var
-  twit = require('twit'),
-  config = require('./config', 'dotenv');
+  twit = require('twit')
+  // config = require('./config', 'dotenv');
 
 var Twitter = new twit(config);
 

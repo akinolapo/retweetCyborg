@@ -1,8 +1,8 @@
-
+import c
 // Dependencies =========================
 var
   twit = require('twit'),
-  config = require('./config', 'dotenv');
+  // config = require('./config', 'dotenv');
 
 var Twitter = new twit(config);
 

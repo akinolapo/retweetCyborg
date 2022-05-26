@@ -1,8 +1,8 @@
-
+import ./cogig;
 // Dependencies =========================
 var
-  twit = require('twit'),
-  config = require('./config', 'dotenv');
+  twit = require('twit')
+  // config = require('./config', 'dotenv');
 
 var Twitter = new twit(config);
 
