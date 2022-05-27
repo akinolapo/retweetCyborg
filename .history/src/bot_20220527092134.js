@@ -1,5 +1,6 @@
 
 // Dependencies =========================
+require('dotenv').config()
 var
   twit = require('twit')
   config = require('./config', 'dotenv');

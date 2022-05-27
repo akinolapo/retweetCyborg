@@ -1,10 +1,11 @@
 
 // Dependencies =========================
-var
-  twit = require('twit')
-  config = require('./config', 'dotenv');
+require('dotenv').config()
+var Twit = require('twit')
+var config = require('./config');
 
-var Twitter = new twit(config);
+var Twitter = new Twit(config);
+
 
 // console.log(Twitter)
 // RETWEET BOT ==========================

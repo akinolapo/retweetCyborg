@@ -1,0 +1,26 @@
+{
+  "name": "js-twitter-bot",
+  "version": "1.0.0",
+  "description": "Follow: https://twitter.com/retweetcyborg",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akinolapo/retweetCyborg"
+  },
+  "author": "Akinola Peace ",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "redis": "^4.1.0",
+    "twit": "^2.2.11"
+  },
+  
+}
