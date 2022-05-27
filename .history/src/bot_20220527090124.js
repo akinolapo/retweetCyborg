@@ -1,8 +1,8 @@
 
 // Dependencies =========================
 require('dotenv').config()
-import Twit from 'twit';
-import config from './config';
+var Twit = require('twit')
+var config = require('./config');
 
 var Twitter = new Twit(config);
 
