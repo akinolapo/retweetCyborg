@@ -1,0 +1,5 @@
+# package.json
+
+config
+./src/config.env
+.env
