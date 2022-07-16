@@ -13,9 +13,9 @@
 // }
 
 module.exports = {
-  consumer_key: 'JTRvOWMBo7n3EPAK7WYtdSZWO',  
-  consumer_secret: '5a4W2Ld7tnaRBdczeD3BlwfbHd7Os2IsWn5EWhqw09pnnPEm4K',
-  access_token: '1287921782545092610-NvqpFOgIQDAcxRS70UbeKwPLZ3HQ9T',  
-  access_token_secret: 'HGTu40L3gegm5SjvNq6MfV8ePjZA9oRVpnm7mr1Q3ej9p'
+  consumer_key: 'JHcu83qtwVy5f0vDhU5CJg6nb',  
+  consumer_secret: 'q69tLFX6QY6IqD073EXCnxu1ett28BjcHQrDnQP5bw8qZzfNNW',
+  access_token: '1287921782545092610-1osstYxj6aRWH1zV8yoY7SKjDIkoF4',  
+  access_token_secret: '9Tw1otrr4TgQaJGqHscJtAsN7mFfzFn0CbEpf3PteZYXT'
 }
 
