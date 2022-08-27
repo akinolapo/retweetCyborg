@@ -10,7 +10,7 @@ var Twitter = new twit(config);
 // find latest tweet according the query 'q' in params
 var retweet = function() {
     var params = {
-        q: '#nodejs, #Nodejs',  // REQUIRED
+        q: '#wordpress, WordPress',  // REQUIRED
         result_type: 'recent',
         lang: 'en'
     }
@@ -45,15 +45,15 @@ var retweet = function() {
 
 // grab & retweet as soon as program is running...
 retweet();
-// retweet in every 50 minutes
-setInterval(retweet, 3000000);
+// retweet in every 5 minutes
+setInterval(retweet, 50000);
 
 // FAVORITE BOT====================
 
 // find a random tweet and 'favorite' it
 var favoriteTweet = function(){
   var params = {
-      q: '#wordpress, #Nodejs',  // REQUIRED
+      q: '#wordpress, WordPress',  // REQUIRED
       result_type: 'recent',
       lang: 'en'
   }
@@ -81,8 +81,8 @@ var favoriteTweet = function(){
 }
 // grab & 'favorite' as soon as program is running...
 favoriteTweet();
-// 'favorite' a tweet in every 60 minutes
-setInterval(favoriteTweet, 3600000);
+// 'favorite' a tweet in every 6 minutes
+setInterval(favoriteTweet, 50000);
 
 // function to generate a random tweet tweet
 function ranDom (arr) {
